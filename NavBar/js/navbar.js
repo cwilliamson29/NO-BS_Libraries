@@ -12,11 +12,11 @@ respMenu.addEventListener('click', () => {
     //navLinks.style.display = "none";
     const navOpen = navLinks.style.display;
 
-    if (navOpen === "none") {
-        navLinks.style.display = "block";
+    if (navOpen === "") {
+        navLinks.style.display = "flex";
         navBar.setAttribute('class', 'active');
     } else {
-        navLinks.style.display = "none";
+        navLinks.style.display = "";
         navBar.setAttribute('class', 'inactive');
     }
 
